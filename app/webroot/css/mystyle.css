@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+h2{
+	color: orange;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+li {
+	padding: 5px 5px 5px 5px;
+}
+
+.menu_action {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*input, textarea {
+	clear: both;
+	font-family: "frutiger linotype","lucida grande","verdana",sans-serif;
+	font-size: 140%;
+	padding: 1%;
+	width: 98%;
+	margin: 0;
+}
+
+form .submit input[type="submit"] {
+    background: #62af56 -moz-linear-gradient(center top , #76bf6b, #3b8230) repeat scroll 0 0;
+    border-color: #2d6324;
+    color: #fff;
+    padding: 8px 10px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+input[type="submit"], .actions ul li a, .actions a {
+    background: #dcdcdc -moz-linear-gradient(center top , #fefefe, #dcdcdc) repeat scroll 0 0;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-weight: normal;
+    min-width: 0;
+    padding: 4px 8px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+}
+input[type="submit"] {
+    display: inline;
+    font-size: 110%;
+    width: auto;
+}*/
+
+form .submit input[type="submit"] {
+    background: #62af56 -moz-linear-gradient(center top , #76bf6b, #3b8230) repeat scroll 0 0;
+    border-color: #2d6324;
+    color: #fff;
+    padding: 8px 10px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}

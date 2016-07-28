@@ -14,7 +14,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'CakePHP: Mini Application with CakePHP');
 $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 <!DOCTYPE html>
@@ -27,8 +27,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-
+		
 		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('mystyle');
+		
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -38,7 +40,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1><?php echo $this->Html->link($cakeDescription, 'http://facebook.com/masamunedochanh' , array('target' => '_blank')); ?></h1>
 		</div>
 		<div id="content">
 
